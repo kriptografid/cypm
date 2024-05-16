@@ -1,11 +1,11 @@
 # CyPM - Python module to analyze Column Parity Mixers (CPM)
 
 Column Parity Mixers (CPM) are the linear functions used to provide diffusion in the symmetric-key primitives,
-specifically permutation-based cryptography such as Keccak (SHA-3), Xoodoo, and Ascon. The description of CPM
-is available in the following paper:
+specifically in the permutations [Keccak-p](https://keccak.team/keccakp.html), [Xoodoo](https://keccak.team/xoodoo.html),
+and [Ascon](https://ascon.iaik.tugraz.at/). The description of CPM is available in the following paper:
 
-- Ko Stoffelen and Joan Daemen. [Column Parity Mixers](https://doi.org/10.13154/tosc.v2018.i1.126-159). IACR Transactions on Symmetric Cryptology (ToSC).
-Volume 2018. Issue 1.
+- Ko Stoffelen and Joan Daemen. [Column Parity Mixers](https://doi.org/10.13154/tosc.v2018.i1.126-159). IACR 
+Transactions on Symmetric Cryptology (ToSC). Volume 2018. Issue 1.
 
 
 ## How to Use
@@ -15,8 +15,8 @@ run the following from the sage terminal
 
     sage: load("cypm.py")
 
-Note that for the above command, you must run the sage terminal from the same folder as this repository. Otherwise, change `"cypm.py"`
-to its absolute path location.
+Note that for the above command, you must run the sage terminal from the same folder as this repository. Otherwise, 
+change `"cypm.py"` to its absolute path location.
 
 
 ## Examples
